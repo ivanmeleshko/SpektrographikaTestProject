@@ -32,6 +32,7 @@ namespace SampleProject.ViewModels
 
         #endregion Properties, Commands
 
+
         #region Ctor
 
         public AddViewModel(NavigationManager navigationManager) : base(navigationManager)
@@ -39,9 +40,11 @@ namespace SampleProject.ViewModels
             AddCommand = new RelayCommand(obj => AddAsync(), (s) => IsValid);
             CancelCommand = new RelayCommand(obj => Cancel());
             ValidateCommand = new RelayCommand(obj => ValidateInput());
+            SetLanguageAsync(CurrentCulture);
         }
 
         #endregion Ctor
+
 
         #region Methods
 
@@ -74,7 +77,7 @@ namespace SampleProject.ViewModels
         }
 
 
-        public void Cancel() => NavigationManager.Navigate(NavigationKeys.Main);
+        public new void Cancel() => NavigationManager.Navigate(NavigationKeys.Main);
 
 
         public void ValidateInput()

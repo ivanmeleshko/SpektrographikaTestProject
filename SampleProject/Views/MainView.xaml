@@ -9,11 +9,16 @@
     MinHeight="250"
     MinWidth="400"
     d:DataContext="{d:DesignInstance vm:MainViewModel}"
+    
     mc:Ignorable="d">
+
+
 
     <Grid >
 
-        <DataGrid
+        <FrameworkElement x:Name="proxy" DataContext="{Binding}"/>
+
+        <DataGrid              
             ItemsSource="{Binding Persons}" 
             SelectedValue="{Binding SelectedPerson}"
             AutoGenerateColumns="False" 
@@ -32,11 +37,21 @@
             VerticalGridLinesBrush="LightGray"
             HorizontalGridLinesBrush="LightGray">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding = "{Binding Surname}" Header = "Surname" Width = "2*" />
-                <DataGridTextColumn Binding = "{Binding Name}" Header = "Name" Width = "2*"/>
-                <DataGridTextColumn Binding = "{Binding Patronymic}" Header = "Patronymic" Width = "2*"/>
-                <DataGridTextColumn Binding = "{Binding Age}" Header = "Age" Width = "*"/>
-                <DataGridTextColumn Binding = "{Binding DesiredSalary}" Header = "Desired Salary" Width = "*"/>
+                <DataGridTextColumn Binding = "{Binding Surname}" 
+                                    Header="{Binding Source={x:Reference proxy}, Path=DataContext.HeaderSurname}"
+                                    Width = "2*" />
+                <DataGridTextColumn Binding = "{Binding Name}" 
+                                    Header="{Binding Source={x:Reference proxy}, Path=DataContext.HeaderName}"
+                                    Width = "2*"/>
+                <DataGridTextColumn Binding = "{Binding Patronymic}" 
+                                    Header="{Binding Source={x:Reference proxy}, Path=DataContext.HeaderPatronymic}"
+                                    Width = "2*"/>
+                <DataGridTextColumn Binding = "{Binding Age}" 
+                                    Header="{Binding Source={x:Reference proxy}, Path=DataContext.HeaderAge}"
+                                    Width = "*"/>
+                <DataGridTextColumn Binding = "{Binding DesiredSalary}" 
+                                    Header="{Binding Source={x:Reference proxy}, Path=DataContext.HeaderDesiredSalary}"
+                                    Width = "2*"/>
             </DataGrid.Columns>
             <DataGrid.InputBindings>
                 <KeyBinding Key="Delete" Command="{Binding RemoveCommand}" />
@@ -44,18 +59,20 @@
         </DataGrid>
 
         <Label
+            Content="{Binding PersonInfo}"
             Margin="0,20,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Content="Persons Info"
             FontSize="20"
             FontWeight="Bold" />
 
         <Label 
-            Content="Find"
+            Content="{Binding Find}"
+            Margin="10,65,0,0"
             HorizontalAlignment="Left" 
-            Margin="27,66,0,0"
-            VerticalAlignment="Top"/>
+            VerticalAlignment="Top"
+            Width="50"
+            HorizontalContentAlignment="Right"/>
 
         <TextBox 
             HorizontalAlignment="Left"
@@ -73,15 +90,32 @@
                 </i:EventTrigger>
             </i:Interaction.Triggers>
         </TextBox>
-        
+
         <Button 
-            Content="Add" 
+            Content="{Binding Add}" 
             Margin="0,65,60,0" 
             VerticalAlignment="Top" 
             HorizontalAlignment="Right" 
             Width="120" 
             Height="28" 
             Command="{Binding AddCommand}"/>
-  
+
+        <Button 
+            Content="UK" 
+            HorizontalAlignment="Right" 
+            Margin="0,10,125,0" 
+            VerticalAlignment="Top"
+            Height="28"
+            Width="55"
+            Command="{Binding UkCommand}"/>
+
+        <Button Content="DE" 
+            HorizontalAlignment="Right" 
+            Margin="0,10,60,0" 
+            VerticalAlignment="Top"
+            Height="28"
+            Width="55"
+            Command="{Binding DeCommand}"/>
+
     </Grid>
 </UserControl>

@@ -16,10 +16,10 @@
     
     <Grid>
         <Label
+            Content="{Binding AddPersonInfo}"
             Margin="0,20,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Content="Add Person Info"
             FontSize="20"
             FontWeight="Bold" />
         
@@ -29,7 +29,7 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             HorizontalContentAlignment="Right"
-            Content="Surname" />
+            Content="{Binding HeaderSurname}" />
         
         <TextBox
             Width="300"
@@ -54,7 +54,7 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             HorizontalContentAlignment="Right"
-            Content="Name" />
+            Content="{Binding HeaderName}" />
         
         <TextBox
             Width="300"
@@ -79,7 +79,7 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             HorizontalContentAlignment="Right"
-            Content="Patronymic" />
+            Content="{Binding HeaderPatronymic}" />
         
         <TextBox
             Width="300"
@@ -104,7 +104,7 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             HorizontalContentAlignment="Right"
-            Content="Age" />
+            Content="{Binding HeaderAge}" />
         
         <TextBox
             Width="300"
@@ -125,12 +125,12 @@
         </TextBox>
         
         <Label
-            Width="100"
-            Margin="10,270,0,0"
+            Width="150"
+            Margin="-30,270,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             HorizontalContentAlignment="Right"
-            Content="Desired Salary" />
+            Content="{Binding HeaderDesiredSalary}" />
         
         <TextBox
             Width="300"
@@ -151,7 +151,7 @@
         </TextBox>
        
         <Button
-            Content="Add" 
+            Content="{Binding Add}" 
             Height="28"
             Width="120"
             HorizontalAlignment="Left" 
@@ -160,7 +160,7 @@
             Command="{Binding AddCommand}" />
 
         <Button 
-            Content="Cancel" 
+            Content="{Binding Cancel}" 
             Height="28" 
             Width="120"
             Margin="300,320,0,0" 

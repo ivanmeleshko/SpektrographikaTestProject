@@ -18,3 +18,14 @@ C:\Users\Ivan\Desktop\SampleProjectSPEKTROGRAPHIKA\SampleProject.Backend\obj\Deb
 C:\Users\Ivan\Desktop\SampleProjectSPEKTROGRAPHIKA\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.dll
 C:\Users\Ivan\Desktop\SampleProjectSPEKTROGRAPHIKA\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.pdb
 C:\Users\Ivan\Desktop\SampleProjectSPEKTROGRAPHIKA\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.csprojAssemblyReference.cache
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\bin\Debug\netstandard2.0\SampleProject.Backend.deps.json
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\bin\Debug\netstandard2.0\SampleProject.Backend.dll
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\bin\Debug\netstandard2.0\SampleProject.Backend.pdb
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.csproj.AssemblyReference.cache
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.AssemblyInfoInputs.cache
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.AssemblyInfo.cs
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.csproj.CoreCompileInputs.cache
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.csproj.Fody.CopyLocal.cache
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.dll
+D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject.Backend\obj\Debug\netstandard2.0\SampleProject.Backend.pdb

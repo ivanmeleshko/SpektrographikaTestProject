@@ -3,11 +3,13 @@ using Egor92.MvvmNavigation.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using PropertyChanged;
 using SampleProject.Constants;
+using SampleProject.Lang;
 using SampleProject.Models;
 using SampleProject.ViewModels.ViewModelBase;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -16,8 +18,7 @@ using System.Windows;
 namespace SampleProject.ViewModels
 {
 
-    [AddINotifyPropertyChangedInterface]//attribute what dedicated to fix all the problems with INotifyPropertyChanged interface(you dont need to call RaisePropertyChanged() on every property)
-    public class MainViewModel : MainViewModelBase
+     public class MainViewModel : MainViewModelBase
     {
 
         #region Fields, Properties, Commands
@@ -30,20 +31,29 @@ namespace SampleProject.ViewModels
         public RelayCommand AddCommand { get; set; }
         public RelayCommand RemoveCommand { get; set; }
         public RelayCommand FindCommand { get; set; }
+        public RelayCommand UkCommand { get; set; }
+        public RelayCommand DeCommand { get; set; }
+
 
         #endregion Fields, Properties, Commands
+
 
         #region Ctor
 
         public MainViewModel(NavigationManager navigationManager) : base(navigationManager)
         {
-            AddCommand = new RelayCommand(obj => Add());
+            AddCommand = new RelayCommand(obj => AddPerson());
             RemoveCommand = new RelayCommand(obj => RemovePersonAsync());
             FindCommand = new RelayCommand(obj => Find());
+            UkCommand = new RelayCommand(obj => SetLanguageAsync("en"));
+            DeCommand = new RelayCommand(obj => SetLanguageAsync("de"));
+            SetLanguageAsync(CurrentCulture);
             GetPersonsAsync();
         }
 
+
         #endregion Ctor
+
 
         #region Methods
 
@@ -53,7 +63,7 @@ namespace SampleProject.ViewModels
         private async void RemovePersonAsync() => await Task.Run(() => RemovePerson());
 
 
-        public void Add() => NavigationManager.Navigate(NavigationKeys.Add);
+        public void AddPerson() => NavigationManager.Navigate(NavigationKeys.Add);
 
 
         private void GetPersons()
