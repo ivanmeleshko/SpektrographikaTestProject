@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+aBItcChUYUqd/iQBhFQ3v21h/cz5vcJCzPwcAHQY34JZiG0KSiIHxLNwLW2xWrNTrPn73RVpa0RxEtBkWYCQ==",
+  "dgSpecHash": "3oiqb/kSovnWabIiFjOIyBVzvjXhBonLDI1Dwlmjaa4ik+i2LtutcJ1NLdbSbXhsCK5BJs61IEe7MCTZB2dgRg==",
   "success": true,
-  "projectFilePath": "D:\\PersonalIM\\Projects\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
+  "projectFilePath": "D:\\PersonalIM\\Raushert\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan IT\\.nuget\\packages\\fody\\6.1.1\\fody.6.1.1.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

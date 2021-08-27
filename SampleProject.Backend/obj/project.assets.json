@@ -261,11 +261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PersonalIM\\Projects\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
+      "projectUniqueName": "D:\\PersonalIM\\Raushert\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
       "projectName": "SampleProject.Backend",
-      "projectPath": "D:\\PersonalIM\\Projects\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
+      "projectPath": "D:\\PersonalIM\\Raushert\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\SampleProject.Backend.csproj",
       "packagesPath": "C:\\Users\\Ivan IT\\.nuget\\packages\\",
-      "outputPath": "D:\\PersonalIM\\Projects\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\obj\\",
+      "outputPath": "D:\\PersonalIM\\Raushert\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject.Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

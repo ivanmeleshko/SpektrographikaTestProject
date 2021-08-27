@@ -24,6 +24,8 @@ namespace SampleProject.ViewModels
         #region Fields, Properties, Commands
 
         private ObservableCollection<Person> persons = new ObservableCollection<Person>();
+        private const string en = "en";
+        private const string de = "de";
 
         public Person SelectedPerson { get; set; }
         public string Filter { get; set; }
@@ -45,8 +47,8 @@ namespace SampleProject.ViewModels
             AddCommand = new RelayCommand(obj => AddPerson());
             RemoveCommand = new RelayCommand(obj => RemovePersonAsync());
             FindCommand = new RelayCommand(obj => Find());
-            UkCommand = new RelayCommand(obj => SetLanguageAsync("en"));
-            DeCommand = new RelayCommand(obj => SetLanguageAsync("de"));
+            UkCommand = new RelayCommand(obj => SetLanguageAsync(en));
+            DeCommand = new RelayCommand(obj => SetLanguageAsync(de));
             SetLanguageAsync(CurrentCulture);
             GetPersonsAsync();
         }

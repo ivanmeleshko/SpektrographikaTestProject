@@ -1,4 +1,5 @@
-﻿using SampleProject.Lang;
+﻿using PropertyChanged;
+using SampleProject.Lang;
 using System.ComponentModel;
 using System.Globalization;
 using System.Runtime.CompilerServices;
@@ -7,11 +8,13 @@ using System.Threading.Tasks;
 namespace SampleProject.ViewModels
 {
 
+    //[AddINotifyPropertyChangedInterface]
     public class LanguageModel : INotifyPropertyChanged
     {
 
         #region Fields
 
+ 
         private static LanguageModel instance;
         private string add;
         private string find;
