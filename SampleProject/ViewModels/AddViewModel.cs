@@ -13,11 +13,10 @@ using System.Windows;
 namespace SampleProject.ViewModels
 {
 
-    [AddINotifyPropertyChangedInterface]
     public class AddViewModel : MainViewModelBase
     {
 
-        #region Properties, Commands
+        #region Properties
 
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -30,7 +29,7 @@ namespace SampleProject.ViewModels
         public RelayCommand CancelCommand { get; set; }
         public RelayCommand ValidateCommand { get; set; }
 
-        #endregion Properties, Commands
+        #endregion Properties
 
 
         #region Ctor
@@ -40,7 +39,6 @@ namespace SampleProject.ViewModels
             AddCommand = new RelayCommand(obj => AddAsync(), (s) => IsValid);
             CancelCommand = new RelayCommand(obj => Cancel());
             ValidateCommand = new RelayCommand(obj => ValidateInput());
-            SetLanguageAsync(CurrentCulture);
         }
 
         #endregion Ctor

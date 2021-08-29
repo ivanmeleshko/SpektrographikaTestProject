@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Release\netcoreapp3.1\
+D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Release\netcoreapp3.1\
 SampleProject
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
-D:\PersonalIM\Projects\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\App.xaml
+D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\App.xaml
 31700922543
 
-12-1215468598
-2211365296127
+14-2092373998
+221-128744512
 MainWindow.xaml;Views\AddView.xaml;Views\MainView.xaml;
 
 False

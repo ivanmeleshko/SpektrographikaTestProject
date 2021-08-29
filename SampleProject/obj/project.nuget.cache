@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7p84tufseoQVSaJgKAR+CzpWVaW/BCSqrP3hX6wZEmF6iKORGaQ8EWn0ti/IZ8EnCqhiU/QDVOtnyBcVy2E0+Q==",
+  "dgSpecHash": "csy5wlqBK5QTxKNh+xY/wtSZoBc3mnQ9Pd8AfdNFQNLhG3q5sYrNzXZh5DzBmxO9i9lHpACgNvImyOGWqAmjpg==",
   "success": true,
   "projectFilePath": "D:\\PersonalIM\\Raushert\\SpektrographikaTestProject\\SpektrographikaTestProject\\SampleProject\\SampleProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ivan IT\\.nuget\\packages\\fody\\6.1.1\\fody.6.1.1.nupkg.sha512",
+    "C:\\Users\\Ivan IT\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\jetbrains.annotations\\2019.1.3\\jetbrains.annotations.2019.1.3.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.7\\microsoft.data.sqlite.core.5.0.7.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -27,7 +27,7 @@
     "C:\\Users\\Ivan IT\\.nuget\\packages\\mvvmnavigation.abstractions\\3.2.0\\mvvmnavigation.abstractions.3.2.0.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\mvvmnavigation.core\\3.2.0\\mvvmnavigation.core.3.2.0.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\mvvmnavigation.wpf\\3.2.0\\mvvmnavigation.wpf.3.2.0.nupkg.sha512",
-    "C:\\Users\\Ivan IT\\.nuget\\packages\\propertychanged.fody\\3.2.8\\propertychanged.fody.3.2.8.nupkg.sha512",
+    "C:\\Users\\Ivan IT\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan IT\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

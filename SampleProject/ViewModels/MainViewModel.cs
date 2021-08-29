@@ -21,7 +21,7 @@ namespace SampleProject.ViewModels
      public class MainViewModel : MainViewModelBase
     {
 
-        #region Fields, Properties, Commands
+        #region Fields, Properties
 
         private ObservableCollection<Person> persons = new ObservableCollection<Person>();
         private const string en = "en";
@@ -36,8 +36,7 @@ namespace SampleProject.ViewModels
         public RelayCommand UkCommand { get; set; }
         public RelayCommand DeCommand { get; set; }
 
-
-        #endregion Fields, Properties, Commands
+        #endregion Fields, Properties
 
 
         #region Ctor
@@ -49,10 +48,8 @@ namespace SampleProject.ViewModels
             FindCommand = new RelayCommand(obj => Find());
             UkCommand = new RelayCommand(obj => SetLanguageAsync(en));
             DeCommand = new RelayCommand(obj => SetLanguageAsync(de));
-            SetLanguageAsync(CurrentCulture);
             GetPersonsAsync();
         }
-
 
         #endregion Ctor
 

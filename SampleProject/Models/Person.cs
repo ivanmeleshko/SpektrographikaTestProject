@@ -6,7 +6,6 @@ using System.ComponentModel;
 namespace SampleProject.Models
 {
 
-    [AddINotifyPropertyChangedInterface]
     public class Person : IDataErrorInfo
     {
 

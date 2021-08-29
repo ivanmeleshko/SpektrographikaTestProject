@@ -11,12 +11,11 @@ using System.Windows;
 
 namespace SampleProject.ViewModels.ViewModelBase
 {
-    //[AddINotifyPropertyChangedInterface]
+
     public class MainViewModelBase : LanguageModel
     {
 
         public const string DB = "Filename=PersonsDB.db";
-
         public NavigationManager NavigationManager { get; set; }
         public ObservableCollection<Person> Persons { get; set; } = new ObservableCollection<Person>();
 
@@ -24,9 +23,10 @@ namespace SampleProject.ViewModels.ViewModelBase
         public MainViewModelBase(NavigationManager navigation)
         {
             NavigationManager = navigation;
+            SetLanguageAsync(CurrentCulture);
         }
 
-        
+
         public static void BeginInvokeOnMainThread(Action action)
         {
             Application.Current.Dispatcher.Invoke(action);

@@ -259,7 +259,6 @@ D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\Sam
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\MvvmNavigation.Core.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\MvvmNavigation.Internal.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\MvvmNavigation.Wpf.dll
-D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\PropertyChanged.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
@@ -300,3 +299,4 @@ D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\Sam
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Debug\netcoreapp3.1\de\SampleProject.resources.dll
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csproj.CopyComplete
 D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.genruntimeconfig.cache
+D:\PersonalIM\Raushert\SpektrographikaTestProject\SpektrographikaTestProject\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csproj.Fody.CopyLocal.cache

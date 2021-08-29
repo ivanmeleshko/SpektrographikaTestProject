@@ -12,14 +12,20 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.7",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.7",
           "MvvmNavigation.Wpf": "3.2.0",
+          "PropertyChanged.Fody": "3.4.0",
           "SampleProject.Backend": "1.0.0",
           "System.Windows.Interactivity.WPF": "2.0.20525"
         },
         "runtime": {
           "SampleProject.dll": {}
+        },
+        "resources": {
+          "de/SampleProject.resources.dll": {
+            "locale": "de"
+          }
         }
       },
-      "Fody/6.1.1": {},
+      "Fody/6.5.1": {},
       "JetBrains.Annotations/2019.1.3": {
         "runtime": {
           "lib/netstandard2.0/JetBrains.Annotations.dll": {
@@ -257,14 +263,14 @@
           }
         }
       },
-      "PropertyChanged.Fody/3.2.8": {
+      "PropertyChanged.Fody/3.4.0": {
         "dependencies": {
-          "Fody": "6.1.1"
+          "Fody": "6.5.1"
         },
         "runtime": {
-          "lib/netstandard1.0/PropertyChanged.dll": {
-            "assemblyVersion": "3.2.8.0",
-            "fileVersion": "3.2.8.0"
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.4.0.0"
           }
         }
       },
@@ -431,7 +437,7 @@
       },
       "SampleProject.Backend/1.0.0": {
         "dependencies": {
-          "PropertyChanged.Fody": "3.2.8"
+          "PropertyChanged.Fody": "3.4.0"
         },
         "runtime": {
           "SampleProject.Backend.dll": {}
@@ -445,12 +451,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Fody/6.1.1": {
+    "Fody/6.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i7vuMDp1LmatLaAXqfOrJt6U0lVSxAQFpjYcWmX+MEM8t6r4b8Z8NtwwcS3XbtQCDRey6QIAe3ujNoOTn7DQ1A==",
-      "path": "fody/6.1.1",
-      "hashPath": "fody.6.1.1.nupkg.sha512"
+      "sha512": "sha512-DEw9rPG5vrpaK4vPPze0f4q6Zd0mfzjGNKy49nrmINkftIHpkyf8KH+uC/qF8y6v1askPWu9NbJS9bkmN5wXaA==",
+      "path": "fody/6.5.1",
+      "hashPath": "fody.6.5.1.nupkg.sha512"
     },
     "JetBrains.Annotations/2019.1.3": {
       "type": "package",
@@ -606,12 +612,12 @@
       "path": "mvvmnavigation.wpf/3.2.0",
       "hashPath": "mvvmnavigation.wpf.3.2.0.nupkg.sha512"
     },
-    "PropertyChanged.Fody/3.2.8": {
+    "PropertyChanged.Fody/3.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UfhhtFPgbqwx8cpuxdRbz9cuHve2BXEs1DjPAA/4p/TfqnTct3glcUz5MQ/TGDjFxHmO1Dc4ETS+B1Zk38TnbQ==",
-      "path": "propertychanged.fody/3.2.8",
-      "hashPath": "propertychanged.fody.3.2.8.nupkg.sha512"
+      "sha512": "sha512-IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "path": "propertychanged.fody/3.4.0",
+      "hashPath": "propertychanged.fody.3.4.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",

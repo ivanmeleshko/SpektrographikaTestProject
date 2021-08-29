@@ -8,11 +8,8 @@
     xmlns:vm="clr-namespace:SampleProject.ViewModels"
     MinHeight="250"
     MinWidth="400"
-    d:DataContext="{d:DesignInstance vm:MainViewModel}"
-    
+    d:DataContext="{d:DesignInstance vm:MainViewModel}"   
     mc:Ignorable="d">
-
-
 
     <Grid >
 
